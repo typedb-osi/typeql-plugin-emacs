@@ -4,6 +4,10 @@ Major mode that provides syntax highlighting and basic completion for GraQL.
 
 Requires `fish-mode` as well.
 
+## Screenshot
+
+![Screenshot](/screenshot.png?raw=true "Screenshot")
+
 ## Notes
 
 - Using `derived-mode` for a simple implementation.
