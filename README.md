@@ -1,4 +1,4 @@
-# emacs-graql-mode
+# TypeQL Plugin for Emacs (INCUBATING)
 
 Major mode that provides syntax highlighting and basic completion for GraQL.
 
