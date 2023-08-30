@@ -9,7 +9,6 @@
 ;; create the list for font-lock.
 ;; each category of keyword is given a particular face
 (setq typeql-font-lock-keywords
-   (modify-syntax-entry ?@ "w" typeql-mode-syntax-table)
    (let* (
      ;; define several category of keywords
      (x-keywords
@@ -37,8 +36,6 @@
        (,x-functions-regexp . font-lock-keyword-face)
        (,x-keywords-regexp . font-lock-keyword-face))))
        ;; note: order above matters, because once colored, that part won't change.
-       ;; in general, put longer words first
-
 
 ;;;###autoload
 (define-derived-mode typeql-mode fish-mode "typeql mode"
@@ -47,6 +44,7 @@
   ;; code for syntax highlighting
   (setq font-lock-defaults '((typeql-font-lock-keywords))))
 
+(modify-syntax-entry ?@ "w" typeql-mode-syntax-table)
 (add-to-list 'auto-mode-alist '("\\.typeql\\'" . typeql-mode))
 
 ;; add the mode to the `features' list

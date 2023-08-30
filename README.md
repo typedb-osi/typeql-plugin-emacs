@@ -4,6 +4,8 @@ Major mode that provides syntax highlighting for TypeQL.
 
 Requires `fish-mode` as well.
 
+![Screenshot](./screenshot.jpeg)
+
 ## Notes
 
 - Using `derived-mode` for a simple implementation.
