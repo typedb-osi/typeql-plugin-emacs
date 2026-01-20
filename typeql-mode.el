@@ -12,7 +12,7 @@
    (let* (
      ;; define several category of keywords
      (x-keywords
-      '("define" "undefine" "match" "get" "insert" "delete" "offset" "limit" "group" "sort" "asc" "desc" "sub" "abstract" "as" "iid" "type" "isa" "isa!" "sub" "sub!" "owns" "has" "plays" "relates" "value" "regex" "rule" "when" "then" "@key" "@unique" "count" "sum" "max" "min" "mean" "median" "std" "@key" "@unique"))
+      '("define" "undefine" "match" "get" "fetch" "insert" "delete" "offset" "limit" "group" "sort" "asc" "desc" "sub" "abstract" "as" "iid" "type" "isa" "isa!" "sub" "sub!" "owns" "has" "plays" "relates" "value" "regex" "rule" "when" "then" "@key" "@unique" "count" "sum" "max" "min" "mean" "median" "std" "@key" "@unique"))
      (x-othertypes
       '("thing" "entity" "attribute" "relation" "role"))
      (x-punctuations
